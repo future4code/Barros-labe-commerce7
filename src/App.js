@@ -1,19 +1,41 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {AppHeader, TituloLoja, Body, Container, Main, Linha, GradeProdutos6, Produto01,Produto02, Produto03, Produto04, Produto05, Produto06, Produtos} from "./styled";
+import {AppHeader, Menu, MenuOpcoes,Home, MenuProdutos, MenuSobre, MenuContato, TituloLoja, SearchLoginCart, Search, SearchItem, Login, Cart, CartItens, CartCartao, Body, Container, Main, Linha, GradeProdutos6, Produto01,Produto02, Produto03, Produto04, Produto05, Produto06, Produtos} from "./styled";
 
 
 function App() {
   return (
     <AppHeader>
+      <Menu>
+        <MenuOpcoes></MenuOpcoes>
+          <Home>HOME</Home>
+          <MenuProdutos>PRODUTOS</MenuProdutos>
+          <MenuSobre>SOBRE</MenuSobre>
+          <MenuContato>CONTATO</MenuContato>
+        <SearchLoginCart></SearchLoginCart>
+        <Search>
+          <SearchItem>🔍 LUPA-Busca (f002)</SearchItem>
+        </Search>
+        <Cart>
+          <CartCartao>🚗Carrinho
+            <CartItens>
+              produtos adicionados?
+            </CartItens>
+          </CartCartao>
+        </Cart>
+        
 
+        
+     
+      </Menu>
 
       <TituloLoja>
         <p>TITULO DA LOJA LabCommerce</p>
       </TituloLoja>
       
       <Main>MAINNN </Main>
+      
       
       <Container>
         
@@ -37,7 +59,7 @@ function App() {
       </Body>
       </Container>
       
-      
+
 
 
 
