@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {AppHeader, Menu, MenuOpcoes,Home, MenuProdutos, MenuSobre, MenuContato, TituloLoja, SearchLoginCart, Search, SearchItem, Login, Cart, CartItens, CartCartao, Body, Container, Main, Linha, GradeProdutos6, Produto01,Produto02, Produto03, Produto04, Produto05, Produto06, Produtos} from "./styled";
+import {AppHeader, Footer, FooterTitulo01, FooterItem02, FooterItem03, FooterItem04, BotaoAdicionarTexto, BotaoAdicionar, CardH3, Preço01,CardProduto01Titulo, CardProduto01, CardProduto01Interno1, CardProduto01Interno2, CardImagem01, CardProduto02, CardProduto02Interno1, CardProduto02Interno2, CardImagem02, Menu, MenuOpcoes,Home, MenuProdutos, MenuSobre, MenuContato, TituloLoja, SearchLoginCart, Search, SearchItem, Login, Cart, CartItens, CartCartao, Body, Container, Main, LinhaProduto, GradeProdutos6, Produto01,Produto02, Produto03, Produto04, Produto05, Produto06, Produtos, FooterItem01} from "./styled";
 
 
 function App() {
@@ -46,26 +46,100 @@ function App() {
       <Produtos>produtos
         
       <GradeProdutos6>GRADE DE PRODUTOS
-      <Linha>
-      <Produto01>IMAGEM-PRODUTO01</Produto01>
+      <LinhaProduto>
+
+        <CardProduto01>
+          <CardProduto01Interno1>
+            
+            <CardProduto01Interno2>
+            
+            <CardProduto01Titulo>
+              <CardH3>TÍTULO PROD01</CardH3>
+              <Preço01>R$ 100,00</Preço01>
+              
+              <BotaoAdicionar>
+              <BotaoAdicionarTexto>Adicionar</BotaoAdicionarTexto>
+              </BotaoAdicionar>
+              
+            </CardProduto01Titulo>
+              <Produto01>
+                <CardImagem01 src = "./img/mountains-g624c07561_1280.jpg"></CardImagem01> 
+              </Produto01> 
+            </CardProduto01Interno2>
+          </CardProduto01Interno1>
+        </CardProduto01>
+   
+
+      
+        <CardProduto02>
+          <CardProduto02Interno1>
+            <CardProduto02Interno2>
+              <Produto02>
+                <CardImagem02 src = "./img/mountains-g624c07561_1280.jpg"></CardImagem02> 
+              </Produto02> 
+            </CardProduto02Interno2>
+          </CardProduto02Interno1>
+        </CardProduto02>
+
+
+      </LinhaProduto>
+
+      
+
+      
       <Produto02>IMAGEM-PRODUTO02</Produto02>
       <Produto03>IMAGEM-PRODUTO03</Produto03>
       <Produto04>IMAGEM-PRODUTO04</Produto04>
       <Produto05>IMAGEM-PRODUTO05</Produto05>
       <Produto06>IMAGEM-PRODUTO06</Produto06>
-      </Linha>
+     
       </GradeProdutos6>
       </Produtos>
       </Body>
       </Container>
       
 
+      <Footer>
+        <FooterTitulo01>PRODUTOS         
+        <FooterItem01>Rochas</FooterItem01>
+         <FooterItem02>Poeiras</FooterItem02>
+         <FooterItem03>Vestimentas</FooterItem03>
+         <FooterItem04>Suvernir</FooterItem04>
+        </FooterTitulo01>
 
+
+
+        <FooterTitulo01>SERVIÇOS
+         <FooterItem01>Rochas</FooterItem01>
+         <FooterItem02>Poeiras</FooterItem02>
+         <FooterItem03>Vestimentas</FooterItem03>
+         <FooterItem04>Suvernir</FooterItem04> 
+        </FooterTitulo01>
+
+        <FooterTitulo01>CONTATO         
+        <FooterItem01>Rochas</FooterItem01>
+         <FooterItem02>Poeiras</FooterItem02>
+         <FooterItem03>Vestimentas</FooterItem03>
+         <FooterItem04>Suvernir</FooterItem04>
+        </FooterTitulo01>
+
+
+
+        <FooterTitulo01>REDES SOCIAIS
+         <FooterItem01>Rochas</FooterItem01>
+         <FooterItem02>Poeiras</FooterItem02>
+         <FooterItem03>Vestimentas</FooterItem03>
+         <FooterItem04>Suvernir</FooterItem04> 
+        </FooterTitulo01>
+
+        
+      </Footer>
 
 
         HEADER
       </AppHeader>
       
+
 
 
   );
