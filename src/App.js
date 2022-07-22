@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Filtro from './components/Filtro'
-import { BlocoProdutos } from './Styled';
+import { BlocoProdutos, BotaoCarrinho } from './Styled';
 import Death from "./components/Img/death.jpg"
 import James from "./components/Img/jmw.webp"
 import Lsaber from "./components/Img/lgsaber.jpg"
@@ -120,7 +120,7 @@ function App() {
 <img key={Produtos.image} src={val.image} alt="img" width="100"/>
  <h2 key={Produtos.nome}>{val.nome}</h2>
  <h3 key={Produtos.preco}>R$:{val.preco},00</h3>
- <button>adicionar ao carrinho</button>
+ <BotaoCarrinho>  adicionar ao carrinho</BotaoCarrinho>
  </span>
        )})}
          
