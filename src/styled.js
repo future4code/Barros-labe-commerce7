@@ -26,7 +26,7 @@ background-color: #f8fafc;
 export const TituloLoja=styled.div `
 text-align: center;
 color: white;
-height: 60vh;
+height: 40vh;
 justify-content: center;
 align-items: center;
 font-family: 'Nunito Sans', sans-serif;
@@ -54,6 +54,7 @@ display: flex;
 justify-content: center;
 flex-direction: column;
 
+
 `;
 
 export const LinhaProduto=styled.div `
@@ -73,6 +74,7 @@ position: relative;
 width: 100%;
 padding-right: 15px;
 padding-left: 15px;
+margin-bottom: 30px;
 box-sizing: border-box;
 display: block;
 `;

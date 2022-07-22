@@ -31,21 +31,21 @@ function App() {
       </Menu>
 
       <TituloLoja>
-        <p>TITULO DA LOJA LabCommerce</p>
+        <p>TITULO DA LOJA</p>
       </TituloLoja>
       
-      <Main>MAINNN </Main>
+      <Main></Main>
       
       
       <Container>
         
-      CONTAINER PRODUTOS
-      <Body>
-      BODY
       
-      <Produtos>produtos
+      <Body>
+      
+      
+      <Produtos>
         
-      <GradeProdutos6>GRADE DE PRODUTOS
+      <GradeProdutos6>
       <LinhaProduto>
 
         <CardProduto01>
@@ -68,31 +68,157 @@ function App() {
             </CardProduto01Interno2>
           </CardProduto01Interno1>
         </CardProduto01>
-   
 
-      
-        <CardProduto02>
-          <CardProduto02Interno1>
-            <CardProduto02Interno2>
-              <Produto02>
-                <CardImagem02 src = "./img/mountains-g624c07561_1280.jpg"></CardImagem02> 
-              </Produto02> 
-            </CardProduto02Interno2>
-          </CardProduto02Interno1>
-        </CardProduto02>
+        <CardProduto01>
+          <CardProduto01Interno1>
+            
+            <CardProduto01Interno2>
+            
+            <CardProduto01Titulo>
+              <CardH3>TÍTULO PROD01</CardH3>
+              <Preço01>R$ 100,00</Preço01>
+              
+              <BotaoAdicionar>
+              <BotaoAdicionarTexto>Adicionar</BotaoAdicionarTexto>
+              </BotaoAdicionar>
+              
+            </CardProduto01Titulo>
+              <Produto01>
+                <CardImagem01 src = "./img/mountains-g624c07561_1280.jpg"></CardImagem01> 
+              </Produto01> 
+            </CardProduto01Interno2>
+          </CardProduto01Interno1>
+        </CardProduto01>
 
+        <CardProduto01>
+          <CardProduto01Interno1>
+            
+            <CardProduto01Interno2>
+            
+            <CardProduto01Titulo>
+              <CardH3>TÍTULO PROD01</CardH3>
+              <Preço01>R$ 100,00</Preço01>
+              
+              <BotaoAdicionar>
+              <BotaoAdicionarTexto>Adicionar</BotaoAdicionarTexto>
+              </BotaoAdicionar>
+              
+            </CardProduto01Titulo>
+              <Produto01>
+                <CardImagem01 src = "./img/mountains-g624c07561_1280.jpg"></CardImagem01> 
+              </Produto01> 
+            </CardProduto01Interno2>
+          </CardProduto01Interno1>
+        </CardProduto01>
 
+        <CardProduto01>
+          <CardProduto01Interno1>
+            
+            <CardProduto01Interno2>
+            
+            <CardProduto01Titulo>
+              <CardH3>TÍTULO PROD01</CardH3>
+              <Preço01>R$ 100,00</Preço01>
+              
+              <BotaoAdicionar>
+              <BotaoAdicionarTexto>Adicionar</BotaoAdicionarTexto>
+              </BotaoAdicionar>
+              
+            </CardProduto01Titulo>
+              <Produto01>
+                <CardImagem01 src = "./img/mountains-g624c07561_1280.jpg"></CardImagem01> 
+              </Produto01> 
+            </CardProduto01Interno2>
+          </CardProduto01Interno1>
+        </CardProduto01>
+
+        <CardProduto01>
+          <CardProduto01Interno1>
+            
+            <CardProduto01Interno2>
+            
+            <CardProduto01Titulo>
+              <CardH3>TÍTULO PROD01</CardH3>
+              <Preço01>R$ 100,00</Preço01>
+              
+              <BotaoAdicionar>
+              <BotaoAdicionarTexto>Adicionar</BotaoAdicionarTexto>
+              </BotaoAdicionar>
+              
+            </CardProduto01Titulo>
+              <Produto01>
+                <CardImagem01 src = "./img/mountains-g624c07561_1280.jpg"></CardImagem01> 
+              </Produto01> 
+            </CardProduto01Interno2>
+          </CardProduto01Interno1>
+        </CardProduto01>
+
+        <CardProduto01>
+          <CardProduto01Interno1>
+            
+            <CardProduto01Interno2>
+            
+            <CardProduto01Titulo>
+              <CardH3>TÍTULO PROD01</CardH3>
+              <Preço01>R$ 100,00</Preço01>
+              
+              <BotaoAdicionar>
+              <BotaoAdicionarTexto>Adicionar</BotaoAdicionarTexto>
+              </BotaoAdicionar>
+              
+            </CardProduto01Titulo>
+              <Produto01>
+                <CardImagem01 src = "./img/mountains-g624c07561_1280.jpg"></CardImagem01> 
+              </Produto01> 
+            </CardProduto01Interno2>
+          </CardProduto01Interno1>
+        </CardProduto01>
+
+        <CardProduto01>
+          <CardProduto01Interno1>
+            
+            <CardProduto01Interno2>
+            
+            <CardProduto01Titulo>
+              <CardH3>TÍTULO PROD01</CardH3>
+              <Preço01>R$ 100,00</Preço01>
+              
+              <BotaoAdicionar>
+              <BotaoAdicionarTexto>Adicionar</BotaoAdicionarTexto>
+              </BotaoAdicionar>
+              
+            </CardProduto01Titulo>
+              <Produto01>
+                <CardImagem01 src = "./img/mountains-g624c07561_1280.jpg"></CardImagem01> 
+              </Produto01> 
+            </CardProduto01Interno2>
+          </CardProduto01Interno1>
+        </CardProduto01>
+
+        <CardProduto01>
+          <CardProduto01Interno1>
+            
+            <CardProduto01Interno2>
+            
+            <CardProduto01Titulo>
+              <CardH3>TÍTULO PROD01</CardH3>
+              <Preço01>R$ 100,00</Preço01>
+              
+              <BotaoAdicionar>
+              <BotaoAdicionarTexto>Adicionar</BotaoAdicionarTexto>
+              </BotaoAdicionar>
+              
+            </CardProduto01Titulo>
+              <Produto01>
+                <CardImagem01 src = "./img/mountains-g624c07561_1280.jpg"></CardImagem01> 
+              </Produto01> 
+            </CardProduto01Interno2>
+          </CardProduto01Interno1>
+        </CardProduto01>
       </LinhaProduto>
 
       
 
-      
-      <Produto02>IMAGEM-PRODUTO02</Produto02>
-      <Produto03>IMAGEM-PRODUTO03</Produto03>
-      <Produto04>IMAGEM-PRODUTO04</Produto04>
-      <Produto05>IMAGEM-PRODUTO05</Produto05>
-      <Produto06>IMAGEM-PRODUTO06</Produto06>
-     
       </GradeProdutos6>
       </Produtos>
       </Body>
@@ -136,7 +262,7 @@ function App() {
       </Footer>
 
 
-        HEADER
+       
       </AppHeader>
       
 
