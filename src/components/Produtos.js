@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import Death from "./Img/death.jpg"
 import James from "./Img/jmw.webp"
 import Lsaber from "./Img/lgsaber.jpg"
@@ -6,7 +6,7 @@ import Milano from "./Img/milano.jpg"
 import ViaL from "./Img/milkwaymap.png"
 import Planetario from "./Img/planetario.jpg"
 
-
+// Lista não renderizada
 
 const Produtos = [
    {id:1,
@@ -43,37 +43,7 @@ const Produtos = [
 
 ];
 
-
-
-   
- function ListaDeProdutos({item}) {
-   
-   
-   return (
-<div>
-    
-    <h2>Produtos de fora da terra</h2>
-    
-   
-    {Produtos.map((val,key)=>(
-  
-        <span>
-       
-       <img src={val.image} alt="" width="100"/>
-        <h2 key={key}>{val.nome}</h2>
-        <h3 key={key}>{val.preco}</h3>
-        <button>adicionar ao carrinho</button>
-        </span>
- 
-        
-        
-    ))}
-</div>
-    
-        )}
-    
-
-export default ListaDeProdutos
+export default Produtos
 
 
     
