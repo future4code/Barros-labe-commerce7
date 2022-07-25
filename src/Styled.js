@@ -224,7 +224,7 @@ box-sizing: border-box;
 export const GradeProdutos6=styled.span `
 padding: 25px 0;
 display:grid;
-grid-template-columns:1fr 1fr 1fr;
+grid-template-columns:repeat(3,3fr);
 grid-template-rows:1fr 1fr;
 button{background-color: #4CAF50; /* Green */
   border: none;
@@ -432,3 +432,34 @@ export const FooterTitulo01=styled.div `
 font-size: 1rem;
 padding: 1rem 0;
 `;
+export const SpanProdutos = styled.span`
+display:grid;
+image{
+   max-width:fit-content;
+   max-height:fit-content;
+    
+}
+button{
+    
+
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  color: #fff;
+  background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+   background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+`

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Filtro from "./components/Filtro";
-import { MenuProdutos,MenuSobre,MenuContato,SearchLoginCart,Search,SearchItem,Cart,CartCartao,CartItens,Home,AppHeader,Footer,FooterItem01,FooterItem02,FooterItem03,FooterItem04,FooterTitulo01, GradeProdutos6, Menu, MenuOpcoes, TituloLoja, } from "./Styled";
+import { MenuProdutos,MenuSobre,MenuContato,SearchLoginCart,Search,SearchItem,Cart,CartCartao,CartItens,Home,AppHeader,Footer,FooterItem01,FooterItem02,FooterItem03,FooterItem04,FooterTitulo01, GradeProdutos6, Menu, MenuOpcoes, TituloLoja, SpanProdutos, } from "./Styled";
 import Death from "./components/Img/death.jpg";
 import James from "./components/Img/jmw.webp";
 import Lsaber from "./components/Img/lgsaber.jpg";
@@ -145,15 +145,17 @@ function App() {
         .map((val) => {
           return (
             // Parte a ser renderizada
-            <GradeProdutos6>
-              <img key={Produtos.image} src={val.image} alt="img" width="100" />
+            
+              <SpanProdutos>
+              <img key={Produtos.image} src={val.image} alt="img" width="350px" />
               <h2 key={Produtos.nome}>{val.nome}</h2>
               <h3 key={Produtos.preco}>R$:{val.preco},00</h3>
               <button onClick={addProdutos}>
                 {" "}
                 adicionar ao carrinho
               </button>
-            </GradeProdutos6>
+              </SpanProdutos>
+           
           );
         })}
         <Footer>
@@ -174,19 +176,19 @@ function App() {
         </FooterTitulo01>
 
         <FooterTitulo01>CONTATO         
-        <FooterItem01>Rochas</FooterItem01>
-         <FooterItem02>Poeiras</FooterItem02>
-         <FooterItem03>Vestimentas</FooterItem03>
-         <FooterItem04>Suvernir</FooterItem04>
+        <FooterItem01>mauricioluiz3800@gmail.com</FooterItem01>
+         <FooterItem02>Layla</FooterItem02>
+         <FooterItem03>Kayo</FooterItem03>
+        
         </FooterTitulo01>
 
 
 
         <FooterTitulo01>REDES SOCIAIS
-         <FooterItem01>Rochas</FooterItem01>
-         <FooterItem02>Poeiras</FooterItem02>
-         <FooterItem03>Vestimentas</FooterItem03>
-         <FooterItem04>Suvernir</FooterItem04> 
+         <FooterItem01>@mauriciolzt</FooterItem01>
+         <FooterItem02>@Layla</FooterItem02>
+         <FooterItem03>@Kayo</FooterItem03>
+         
         </FooterTitulo01>
 
         
